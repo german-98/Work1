@@ -13,6 +13,7 @@ body {
 .container {
     width: 1728px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .clearfix::after {
@@ -30,34 +31,54 @@ body {
     float: right;
     padding: 5px 0 5px 70px;
 }
-
-.menu_list {
-    list-style: none;
+.menu [type="checkbox"]{
+    display: none;
+}
+label{
+    display: none;
+    cursor: pointer;
 }
 
+.menu{
+    display: block;
+}
 .menu_item {
+    display: block;
     float: left;
-    padding: 5px 0 5px 60px;
+    padding-top: 35px;
 }
+
+
+
+
+
 
 .menu_link {
     color: #FDC700;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-.menu_link:hover {
-    background: #FDC700;
+    font-family: Arial, Helvetica, sans-serif;background: #FDC700;
     display: inline-block;
     color: black;
     text-align: center;
-    border-radius: 4%;
+    border-radius: 16px;
+    padding: 20px;
+    padding: 13px 53px 13px 45px;
+    margin-right: 25px;
+
+}
+.menu_link_item {
+    color: #FDC700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    border-radius: 16px;
     padding: 20px;
     padding: 13px 53px 13px 45px;
 
-
 }
+
+
 
 .silentdisc {
     font-size: 65px;
@@ -91,24 +112,21 @@ body {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 148px;
-}
-
-.application:hover {
     background: #FDC700;
     display: inline-block;
     color: black;
     text-align: center;
-    /* transform: skewX(15deg); */
-    border-radius: 4%;
+    border-radius: 16px;
     padding: 16px 129px 14px 105px;
     margin-left: 49px;
-
 }
+
+
 
 .downloude {
     display: flex;
     justify-content: center;
-    padding-top: 435px;
+    padding-top: 130px;
 }
 
 .slid-video {
@@ -161,11 +179,14 @@ body {
     padding: 30px;
     color: black;
     font-size: 16px;
-    background-color: #FDC700;
+    border: 3px solid #FDC700;
     border-radius: 11%;
     transform: skewX(7deg);
 
 
+}
+.swiper-lazy{
+    padding-left: 155px;
 }
 
 .slider-container {
@@ -219,8 +240,9 @@ body {
 
 .contur {
     position: relative;
-    bottom: 280px;
-    left: 1400px;
+    bottom: 279px;
+    left: 1437px;
+    z-index: 1;
 }
 
 .info-ears {
@@ -231,13 +253,21 @@ body {
     display: grid;
 }
 
+
 .bacsloi {
     background: #0B155D;
     background: -webkit-linear-gradient(left, #0B155D, #555C94);
     background: -moz-linear-gradient(left, #0B155D, #555C94);
     background: linear-gradient(to right, #0B155D, #555C94);
 }
-
+.hole{
+    border-left: 2px solid #FDC700;
+    position: relative;
+    right: 940px;
+    display: initial;
+    padding-bottom: 680px;
+    top: 30px;
+}
 
 .ears{
     background-color: blue;
@@ -253,13 +283,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     display: block;
-    
     margin-left: 185px;
     margin-top: 85px;
 }
 .text_img{
     float: left;
     width: 49%;
+    
     
 }
 
@@ -309,32 +339,27 @@ body {
     color: #FDC700;
     font-size: 20px;
     margin-left: 305px;
-   
-} 
-
-.button-text:hover {
     background: #FDC700;
     color: black;
     text-align: center;
-    border-radius: 4%;
+    border-radius: 16px;
     padding: 22px 127px 31px 102px;
     margin-left: 180px;
-
-
+   
 } 
+
 .button-trans{
     color: #FDC700;
     font-size: 20px;
     margin-left: 305px;
-}
-.button-trans:hover{
     background: #FDC700;
     color: black;
     text-align: center;
-    border-radius: 4%;
+    border-radius: 16px;
     padding: 22px 127px 31px 102px;
     margin-left: 223px;
 }
+
 .block-rent{
     background-image: url(../img/Прямоугольник\ 61.jpg);
     display: grid;
@@ -347,11 +372,13 @@ body {
 .find-out-prices{
     display: flex;
     justify-content: center;
+    padding-right: 45px;
+    padding-left: 45px;
 }
 .find-price{
     padding: 35px;
-    position	: relative;
-	width		: 100%; 
+    position: relative;
+	width: 100%; 
 }
 .border-bor{
     border: 1px solid #FDC700;
@@ -367,7 +394,7 @@ body {
 }
 .pro{
     position: absolute;
-    top: -20px;
+    top: -15px;
     left: 260px;
     font-size: 45px;
     border-bottom: 2px solid #fff;
@@ -460,6 +487,10 @@ body {
     font-size: 25px;
     bottom: 200px;
     color: black;
+    background: white;
+    border-radius: 16px;
+    margin: 0px 0px -20px -89px;
+    padding: 20px 92px 21px 87px;
     
 }
 .a-price-pro{
@@ -468,20 +499,13 @@ body {
     font-size: 25px;
     bottom: 200px;
     color: black;
-}
-.a-price-pro:hover{
     background: white;
-    border-radius: 4%;
+    border-radius: 16px;
     margin: 0px 0px -20px -89px;
     padding: 20px 92px 21px 87px;
 }
-.a-price:hover {
-    background: white;
-    border-radius: 4%;
-    margin: 0px 0px -20px -89px;
-    padding: 20px 92px 21px 87px;
-    
-}
+
+
 .block-instagram{
     background-image: url(../img/IMG_1783.jpg);
     background-repeat: no-repeat;

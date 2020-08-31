@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="media/media.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
@@ -21,21 +22,21 @@
                 <img src="img/logo.png" alt="Silent">
             </a>
             <nav class="menu">
-                <ul class="menu_list clearfix">
+                <label for="menu" class="toggleMenu">☰</label>
+                <input type="checkbox" name="toggle" id="menu"class="toggleMenu" >
                     <li class="menu_item">
                         <a href="#" class="menu_link">Аренда </a></li>
                     <li class="menu_item">
                         <a href="#" class="menu_link">Продажа </a></li>
                     <li class="menu_item">
-                        <a href="#" class="menu_link"> Наши партнеры </a></li>
+                        <a href="#" class="menu_link_item"> Наши партнеры </a></li>
                     <li class="menu_item">
-                        <a href="#" class="menu_link"> Галерея</a></li>
+                        <a href="#" class="menu_link_item"> Галерея</a></li>
                     <li class="menu_item">
-                        <a href="#" class="menu_link">Контакты</a></li>
-                </ul>
+                        <a href="#" class="menu_link_item">Контакты</a></li>
             </nav>
 
-        </div>
+       
 
     </header>
 
@@ -116,11 +117,13 @@
         <h2 class="slid">ПОДРОБНЕЕ О НАУШНИКАХ</h2>
         <div class="block-information">
             <div class="text_img">
-                <a href="#" class="ears icons"> <img class="ear-img" src="img/наушники 2.png" alt=""></a>
+                <a href="#" class="ears icons"> <img class="ear-img" src="img/наушники 2.png" alt="">  </a>
                 <h3 class="text-super">SX-809 Super Power Bass ®</h3>
                 <p class="mult-text">Мультиканальные беспроводные наушники.</p>
                 <a href="#" class="button-text"> Подробнее о наушниках</a>
+               
             </div>
+            <div class="hole"></div>
             <div class="text_img">
                 <a href="#" class="router icons"> <img class="router-img" src="img/роутер.png" alt=""></a>
                 <h3 class="text-ears">TX-UHF50SPB</h3>
@@ -218,6 +221,7 @@
             </div>
         </div>
     </div>
+</div>
     <footer class="footer">
         <div class="block-footer">
             <div class="container">
@@ -230,6 +234,7 @@
             </div>
         </div>
     </footer>
+
 
 
 

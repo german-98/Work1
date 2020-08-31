@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .header {
+        height: auto;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .logo {
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+        
+    }
+
+    .menu {
+        overflow: hidden;
+        float: none;
+        margin: 0 auto;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+        
+    }
+    .videotext{
+        margin-left: 20px;
+    }
+    .menu_item  {
+        display: none;
+        float: none;
+    }
+    input.toggleMenu:checked ~ li{
+        display: block;
+    }
+    .silentdisc{
+        width: 100%;
+    }
+   .text{
+       width: 100%;
+   }
+   .application{
+    display: table-caption;
+   }
+   .slid-video{
+    width: 100%;
+   }
+  
+   .text_img{
+    float: none;
+    width: 100%;
+   }
+   .icons{
+    margin-left: 35px;
+   }
+   .button-trans{
+    margin-left: 58px;
+    padding: 22px 114px 30px 93px;
+   }
+   .find-out-prices{
+   
+    display: contents;
+
+   }
+   .button-text{
+    margin-left: 65px;
+   }
+   .info-ears{
+       display: inline-block;
+   }
+   .text-ears{
+       margin-left: auto;
+       text-align: center;
+   }
+   .mult-fm{
+       margin-left: auto;
+       font-size: 31px;
+       text-align: center;
+   }
+   .block-rent{
+       display: inline-block;
+   }
+ 
+  
+  .a-price-pro{
+    margin: 0px 0px -77px -89px;
+  }
+  .a-price{
+    margin: 0px 0px -20px -89px;
+  }
+               
+ 
+   
+   
+
+}
