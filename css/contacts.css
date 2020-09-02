@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 1728px;
+    margin: 0 auto;
+    
+   
+}
+.back{
+    background: black;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.logo {
+    padding: 15px 60px 5px 30px;
+    display: inline-block;
+}
+
+.menu {
+    float: right;
+    padding: 5px 0 5px 70px;
+}
+
+.menu [type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: none;
+    cursor: pointer;
+}
+
+.menu {
+    display: block;
+}
+
+.menu_item {
+    display: block;
+    float: left;
+    padding-top: 35px;
+}
+.menu_link {
+    color: #FDC700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FDC700;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    border-radius: 16px;
+    padding: 20px;
+    padding: 13px 53px 13px 45px;
+    margin-right: 25px;
+
+}
+
+.menu_link_item {
+    color: #FDC700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: center;
+    border-radius: 16px;
+    padding: 20px;
+    padding: 13px 53px 13px 45px;
+
+}
+.contact-img{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+}
+.image{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    margin-bottom: -250px;
+}
+.text-cont{
+    
+    font-size: 155px;
+    display: inline-block;
+    color: #1227EE;
+    font-weight: 100;
+}
+.text-contact{
+   
+    text-align: center;
+    
+}
+.yandex-cart{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background: #1A2EEC;
+    background: -webkit-linear-gradient(top, #1A2EEC, #000000);
+    background: -moz-linear-gradient(top, #1A2EEC, #000000);
+    background: linear-gradient(to bottom, #1A2EEC, #000000);
+    
+}
+.adres-text{
+    color: #FDC700;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+.footer{
+    background: #1227F0;
+    
+}
+.block-footer{
+    height: 91px;
+}
+.text-footer{
+    font-size: 15px;
+    color: white;
+    margin-left: 20px;
+}
+.image-text{
+    display: flex;
+    padding-top: 25px;
+}
+.ymaps-2-1-77-map{
+    border: 1px soli white;
+    border-radius: 8.5%;
+}
+.ymaps-2-1-77-inner-panes{
+    border: 1px solid white;
+    border-radius: 8%;
+}
