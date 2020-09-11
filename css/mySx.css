@@ -1,0 +1,99 @@
+.modal-SX {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.modal-mySX {
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    width: 1728px;
+    height: 1020px;
+
+}
+.crest-SX {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+.close_SX {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FDC700;
+    position: relative;
+    right: 0px;
+    top: -10px;
+    left: 10px;
+}
+
+.close_SX:hover {
+    opacity: 1;
+}
+
+.close_SX:before,
+.close_SX:after {
+    position: absolute;
+    left: 23px;
+    top: 8px;
+    content: ' ';
+    height: 33px;
+    width: 3px;
+    background-color: white;
+    
+}
+
+.close_SX:before {
+    transform: rotate(45deg);
+}
+
+.close_SX:after {
+    transform: rotate(-45deg);
+}
+.text-SX{
+    text-align: center;
+    font-size: 65px;
+    color: #2238FE;
+}
+.p-SX{
+    text-align: center;
+    font-size: 50px;
+}
+.text-SXE{
+    text-align: center;
+    font-size: 25px;
+}
+.li-SX{
+    font-size: 25px;
+}
+.SX-tex{
+    font-size: 40px;
+}
+.block-SX{
+    float: left;
+    margin-left: 75px;
+}
+.block-SXSUP{
+    display: flow-root;
+    padding-left: 248px;
+}
+.border-modal-SX{
+    border-left: 2px solid #1227F0;
+    display: initial;
+    padding-bottom: 456px;
+    margin-left: 155px;;
+}

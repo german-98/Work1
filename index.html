@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="media/media.css">
     <link rel="stylesheet" href="css/modalArenda.css">
+    <link rel="stylesheet" href="css/myTx.css">
+    <link rel="stylesheet" href="css/mySx.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
@@ -33,7 +35,7 @@
                             <span class="close_arenda iconz "></span>
                             <h1 class="modal-textion"> АРЕНДА НАУШНИКОВ</h1>
                             <div class="name-input-arenda">
-                                <p>Имя</p>
+                                <p class="nam-text">Имя</p>
                                 <input type="text" class="name" id="name">
                             </div>
                             <div class="email-input-arenda">
@@ -45,19 +47,19 @@
                                 <input type="tel" id="tel" name="tel" class="phone">
                             </div>
                             <div class="block-arenda">
-                            <div class="number-input-arenda">
-                                <p>Количество наушников</p>
-                                <input  type="number" id="number" name="number" class="number">
+                                <div class="number-input-arenda">
+                                    <p>Количество наушников</p>
+                                    <input type="number" id="number" name="number" class="number">
+                                </div>
+                                <div class="arenda-input-modal">
+                                    <p>Тип аренды</p>
+                                    <input type="text" id="text" name="text" class="arenda">
+                                </div>
+                                <div class="promo-input-arenda">
+                                    <p>Промокод (если есть)</p>
+                                    <input type="number" id="number" name="number" class="promo">
+                                </div>
                             </div>
-                            <div class="arenda-input-modal">
-                                <p>Тип аренды</p>
-                                <input  type="text" id="text" name="text" class="arenda">
-                            </div>
-                            <div class="promo-input-arenda">
-                                <p>Промокод (если есть)</p>
-                                <input  type="number" id="number" name="number" class="promo">
-                            </div>
-                        </div>
                             <a href="#" class="message-arenda"><span>Отправить</span></a>
                         </div>
                     </div>
@@ -71,7 +73,7 @@
                             <span class="close icon"></span>
                             <h1 class="modal-text"> Купить наушники SILENTSYSTEM</h1>
                             <div class="name-input">
-                                <p>Имя</p>
+                                <p class="nam-text">Имя</p>
                                 <input type="text" class="name" id="name">
                             </div>
                             <div class="email-input">
@@ -84,15 +86,15 @@
                             </div>
                             <div class="number-input">
                                 <p>Количество наушников</p>
-                                <input  type="number" id="number" name="number" class="number">
+                                <input type="number" id="number" name="number" class="number">
                             </div>
                             <div class="arenda-input">
                                 <p>Тип аренды</p>
-                                <input  type="text" id="text" name="text" class="arenda">
+                                <input type="text" id="text" name="text" class="arenda">
                             </div>
                             <div class="promo-input">
                                 <p>Промокод (если есть)</p>
-                                <input  type="number" id="number" name="number" class="promo">
+                                <input type="number" id="number" name="number" class="promo">
                             </div>
                             <a href="#" class="message"><span>Отправить</span></a>
                         </div>
@@ -193,15 +195,103 @@
                 <a href="#" class="ears icons"> <img class="ear-img" src="img/наушники 2.png" alt=""> </a>
                 <h3 class="text-super">SX-809 Super Power Bass ®</h3>
                 <p class="mult-text">Мультиканальные беспроводные наушники.</p>
-                <a href="#" class="button-text"> Подробнее о наушниках</a>
+                <a href="#" class="button-text" id="mySX"> Подробнее о наушниках</a>
+                <div class="modal-SX" id="my-SX">
+                    <div class="modal-mySX">
+                        <span class="close_SX crest-SX "></span>
+                        <h1 class="text-SX">TX-SX-809 Super Power Bass®</h1>
+                        <p class="p-SX"> Мультиканальные беспроводные наушники</p>
+                        <p class="text-SXE"> Наушники SX-809 Super Power Bass ® оснащены высококачественными
+                            преобразователями, которые воспроизводят насыщенный и детальный звук, чтобы удовлетворить
+                            даже самых требовательных меломанов. Эргономичный дизайн наушников идеально подходит для
+                            многочасового наслаждения качественным звучанием выверенных частот и глубокими басами.
+                            Наушники имеют яркую светодиодную подсветку которая меняет цвет в зависимости от выбранного
+                            канала. Отлично подходит для танцевальных вечеров в ночное время, свадеб и мероприятий на
+                            свежем воздухе.</p>
 
+
+                        <div class="block-SX">
+                            <h2 class="SX-tex">Описание:</h2>
+                            <ul>
+                                <li class="li-SX">Беспроводная система радиочастотных наушников</li>
+                                <li class="li-SX">Специальный дизайн для вечеринок и мероприятий</li>
+                                <li class="li-SX">Яркая подсветка, меняющая цвет в зависимости от канала</li>
+                                <li class="li-SX">Складная конструкция для удобного хранения</li>
+                                <li class="li-SX">Переключатель для выбора каналов</li>
+                                <li class="li-SX">Регуляторы громкости звука в наушниках</li>
+                                <li class="li-SX">Мягкая ушная накладка для комфортного ношения</li>
+                                <li class="li-SX">Встроенный аккумулятор на 12 часов автономной работы</li>
+                            </ul>
+                        </div>
+                        <div class="border-modal-SX"></div>
+                        <div class="block-SXSUP">
+                            <h2 class="SX-tex">Технические характеристики:</h2>
+                            <ul>
+                                <li class="li-SX">Система: УВЧ / РФ</li>
+                                <li class="li-SX">Модуляция: FM</li>
+                                <li class="li-SX">Режим: стерео</li>
+                                <li class="li-SX">LED-подсветка: синий, красный, зеленый</li>
+                                <li class="li-SX">Соотношение сигнал/шум: > 75 дБ</li>
+                                <li class="li-SX">Динамик: Super Power Bass</li>
+                                <li class="li-SX">АЧХ: 30 ~ 20000 Гц</li>
+                                <li class="li-SX">Разделение каналов: > 35 дБ</li>
+                                <li class="li-SX">Время работы: 12 часов</li>
+                                <li class="li-SX">Время подзарядки: 3 часа</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="hole"></div>
             <div class="text_img">
                 <a href="#" class="router icons"> <img class="router-img" src="img/роутер.png" alt=""></a>
                 <h3 class="text-ears">TX-UHF50SPB</h3>
                 <p class="mult-fm">Мультиканальный FM-трансмиттер HD.</p>
-                <a href="#" class="button-trans"> Подробнее о трансмиттере</a>
+                <a href="#" class="button-trans" id="myTX"> Подробнее о трансмиттере
+                </a>
+                <div class="modal-TX" id="my-UHF">
+                    <div class="modal-myTX">
+                        <span class="close_TX crest "></span>
+                        <h1 class="text-TX">TX-UHF50SPB</h1>
+                        <p class="p-TX"> МУЛЬТИКАНАЛЬНЫЙ FM-ТРАНСМИТТЕР HD</p>
+                        <p class="text-UHF"> Радиочастотный беспроводной передатчик TX-UHF50SPB – это передача звука без
+                            потери качества.
+                            Исключительный звук гарантируется запатентованной системой Super Power Bass ®. Диапазон
+                            действия может быть полностью персонализирован для вашего местоположения: просто выберите
+                            наиболее адаптированную настройку из 2 доступных профилей (низкий 200 метров и высокий 500
+                            метров) для оптимизации вашего звучания.</p>
+
+
+                        <div class="block-in">
+                            <h2 class="uhf-tex">Описание:</h2>
+                            <ul>
+                                <li class="li-TX">Беспроводной 3-канальный FM-передатчик</li>
+                                <li class="li-TX">Дисплей для текущего рабочего канала</li>
+                                <li class="li-TX">Опция низкой и высокой мощности передачи</li>
+                                <li class="li-TX">Кнопка смены канала</li>
+                                <li class="li-TX">Компактный дизайн</li>
+                                <li class="li-TX">Диапазон покрытия более 500 метров</li>
+                                <li class="li-TX">Металлический корпус</li>
+                                <li class="li-TX">Мощная складная антенна</li>
+                            </ul>
+                        </div>
+                        <div class="border-modal"></div>
+                        <div class="block-UHR">
+                            <h2 class="uhf-tex">Технические характеристики:</h2>
+                            <ul>
+                                <li class="li-TX">Система: УВЧ / РФ</li>
+                                <li class="li-TX">Модуляция: FM</li>
+                                <li class="li-TX">Режим: стерео</li>
+                                <li class="li-TX">Частота: 863 МГц / 925 МГц</li>
+                                <li class="li-TX">Количество каналов: 3 канала</li>
+                                <li class="li-TX">Эффективная дальность: до 200 метров (600 футов) при малой мощности
+                                    Более 500 метров (1500 футов) на большой мощности
+                                </li>
+                                <li class="li-TX">Блок питания: 12 Вольт</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -310,8 +400,8 @@
     </footer>
 
 
-
-
+    <script src="js/mySx.js"></script>
+    <script src="js/myTx.js"></script>
     <script src="js/slide.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/modalArenda.js"></script>

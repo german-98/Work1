@@ -1,0 +1,99 @@
+.modal-TX {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.modal-myTX {
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: white;
+    width: 1728px;
+    height: 1020px;
+
+}
+.crest {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+.close_TX {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FDC700;
+    position: relative;
+    right: 0px;
+    top: -10px;
+    left: 10px;
+}
+
+.close_TX:hover {
+    opacity: 1;
+}
+
+.close_TX:before,
+.close_TX:after {
+    position: absolute;
+    left: 23px;
+    top: 8px;
+    content: ' ';
+    height: 33px;
+    width: 3px;
+    background-color: white;
+    
+}
+
+.close_TX:before {
+    transform: rotate(45deg);
+}
+
+.close_TX:after {
+    transform: rotate(-45deg);
+}
+.text-TX{
+    text-align: center;
+    font-size: 65px;
+    color: #2238FE;
+}
+.p-TX{
+    text-align: center;
+    font-size: 50px;
+}
+.text-UHF{
+    text-align: center;
+    font-size: 25px;
+}
+.li-TX{
+    font-size: 25px;
+}
+.tx-tex{
+    font-size: 40px;
+}
+.block-in{
+    float: left;
+    margin-left: 75px;
+}
+.block-UHR{
+    display: flow-root;
+    padding-left: 248px;
+}
+.border-modal{
+    border-left: 2px solid #1227F0;
+    display: initial;
+    padding-bottom: 456px;
+    margin-left: 190px;
+}
