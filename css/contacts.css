@@ -135,11 +135,6 @@ label {
     display: flex;
     padding-top: 25px;
 }
-.ymaps-2-1-77-map{
-    border: 1px soli white;
-    border-radius: 8.5%;
-}
-.ymaps-2-1-77-inner-panes{
-    border: 1px solid white;
-    border-radius: 8%;
+.ymaps-2-1-77-map ymaps, .ymaps-2-1-77-map ymaps:after, .ymaps-2-1-77-map ymaps:before{
+    border-radius: 35px;
 }

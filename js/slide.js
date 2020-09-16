@@ -1,8 +1,7 @@
 const slider = document.querySelector('.swiper-container') ;
 
 var mySwiper = new Swiper(slider, {
-slidesPerView: 2,
-spaceBetween:10,
+slidesPerView: 1,
 pagination: {
     el: '.swiper-pagination',
     type: 'bullets',

@@ -58,13 +58,14 @@ label {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background: #FDC700;
-    display: inline-block;
+    display: flex;
     color: black;
     text-align: center;
     border-radius: 16px;
     padding: 20px;
     padding: 13px 53px 13px 45px;
     margin-right: 25px;
+    transform: skew(-15deg);
 
 }
 
@@ -78,6 +79,9 @@ label {
     padding: 20px;
     padding: 13px 53px 13px 45px;
 
+}
+.menu_link span {
+    transform: skew(15deg);
 }
 .info-ears {
     background: #1A2EEC;
@@ -103,7 +107,7 @@ label {
     background-repeat: no-repeat;
     display: block;
     margin-top: 85px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 .text_img{
     float: left;
@@ -112,9 +116,7 @@ label {
     
 }
 
-.block-information{
-    margin-bottom: 150px;
-}
+
 
  .ear-img{
     position: relative;
