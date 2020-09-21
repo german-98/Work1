@@ -1,4 +1,4 @@
-const slider = document.querySelector('.swiper-container-gal') ;
+const slider = document.querySelector('.swiper-container') ;
 
 var mySwiper = new Swiper(slider, {
 slidesPerView: 1,

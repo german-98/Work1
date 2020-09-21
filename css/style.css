@@ -23,12 +23,12 @@ body {
 
 .logo {
     float: left;
-    padding: 15px 0 5px 30px;
+    padding: 11px 0 5px 30px;
 }
 
 .menu {
     float: right;
-    padding: 5px 0 5px 70px;
+    padding: 0px 0 5px 0px;
 }
 
 .menu [type="checkbox"] {
@@ -47,7 +47,7 @@ label {
 .menu_item {
     display: block;
     float: left;
-    padding-top: 35px;
+    padding-top: 37px;
 }
 
 .menu_link {
@@ -90,7 +90,7 @@ label {
     width: 764px;
     font-weight: inherit;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 99px;
+    margin-bottom: 50px;
 }
 
 .silentdisc span {
@@ -99,7 +99,7 @@ label {
 
 .silenttext {
     display: inline-block;
-    padding-top: 205px;
+    padding-top: 208px;
 }
 
 .text {
@@ -108,7 +108,7 @@ label {
     font-family: Arial, Helvetica, sans-serif;
     width: 544px;
     font-weight: inherit;
-    margin-bottom: 99px;
+    margin-bottom: 70px;
 }
 
 .application {
@@ -125,19 +125,20 @@ label {
     margin-left: 49px;
 }
 
-
+.downloud{
+    padding-top: 221px;
+}
 
 .downloude {
     display: flex;
     justify-content: center;
-    padding-top: 130px;
 }
 
 .slid-video {
     font-size: 65px;
     color: white;
     font-weight: inherit;
-    padding-top: 155px;
+    padding-top: 129px;
 }
 
 .textsystem {
@@ -154,17 +155,24 @@ label {
 
 .videosilent {
     text-align: center;
-}
-
-
-.video {
-    border-radius: 6%;
+    transform: skew(16deg);
     border: 2px solid #FDC700;
-    
-    width: 1100px;
-    height: 670px;
+    display: inline-block;
+    margin-left: 700px;
+    overflow: hidden;
+    position: relative;
+    right: 280px;
+    width: 1107px;
+    border-radius: 50px;
 }
 
+.ifram{
+    transform: skew(-16deg);
+    position: relative;
+    right: 66px;
+    top: 1px;
+    height: 630px;
+}
 .slidtext {
     width: 86%;
     text-align: center;
@@ -176,6 +184,7 @@ label {
     color: white;
     font-weight: inherit;
     text-align: center;
+    padding-top: 52px;
 }
 
 .card {
@@ -315,7 +324,7 @@ label {
     background-position: center;
     background-repeat: no-repeat;
     display: block;
-    margin-left: 260px;
+    margin-left: 225px;
     margin-top: 85px;
 }
 
@@ -345,14 +354,14 @@ label {
 .text-super {
     color: white;
     font-size: 45px;
-    margin-left: 220px;
+    margin-left: 190px;
     margin-top: -73px;
 }
 
 .text-ears {
     color: white;
     font-size: 45px;
-    margin-left: 355px;
+    margin-left: 320px;
     margin-top: -77px;
 
 }
@@ -360,14 +369,14 @@ label {
 .mult-text {
     color: white;
     font-size: 30px;
-    margin-left: 215px;
+    margin-left: 190px;
     padding-bottom: 25px;
 }
 
 .mult-fm {
     color: white;
     font-size: 30px;
-    margin-left: 230px;
+    margin-left: 220px;
     padding-bottom: 25px;
 }
 
@@ -382,7 +391,7 @@ label {
     text-align: center;
     border-radius: 16px;
     padding: 22px 127px 31px 102px;
-    margin-left: 295px;
+    margin-left: 270px;
 
 }
 
@@ -395,7 +404,7 @@ label {
     text-align: center;
     border-radius: 16px;
     padding: 22px 127px 31px 102px;
-    margin-left: 270px;
+    margin-left: 265px;
 }
 
 .block-rent {
