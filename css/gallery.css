@@ -184,7 +184,7 @@ label {
     background: #FDC700;
 }
 
-.swiper-container {
+.swiper-container{
     margin: 0 auto;
 
 }
@@ -218,4 +218,9 @@ label {
     color: black;
     font-weight: bold;
     font-size: 29px;
+}
+.border {
+    color: white;
+    width: 42%;
+    border: 1px solid;
 }

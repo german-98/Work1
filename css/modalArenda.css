@@ -141,8 +141,8 @@
     padding: 25px 73px 25px 71px;
     transform: skew(-15deg);
     position: relative;
-    bottom: 500px;
-    right: 47px;
+    bottom: 505px;
+    left: 570px;
 
 }
 
@@ -193,4 +193,69 @@
     display: initial;
     position: relative;
     top: 45px;
+}
+.arend-tex{
+    position: relative;
+    bottom: 775px;
+    left: 214px;
+    color: #2238FE;
+}
+.arenda-end{
+    position: relative;
+    bottom: 820px;
+    left: 740px;
+    color: #2238FE;
+}
+arrow-1 {
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin: 20px;
+}
+.arrow-1 div {
+    position: relative;
+    width: 90px;
+    height: 7px;
+    background-color: #FDC700;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    left: 632px;
+    display: block;
+    bottom: 785px;
+}
+.arrow-1 div::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    top: -11px;
+    right: 54px;
+    background-color: #FDC700;
+    transform: rotate(-30deg);
+
+}
+.arrow-1 div::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    top: 10px;
+    right: 55px;
+    background-color: #FDC700;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(35deg);
+}
+.arrow-1:hover {
+    animation: arrow-1 1s linear infinite;
+}
+@keyframes arrow-1 {
+    0% {
+        left:0;
+    }
+    50% {
+        left:10px;
+    }
+    100% {
+        left:0;
+    }
 }

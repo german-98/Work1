@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="css/myTx.css">
     <link rel="stylesheet" href="css/mySx.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+   
 </head>
 
 <body>
@@ -59,8 +60,51 @@
                                     <p>Промокод (если есть)</p>
                                     <input type="number" id="number" name="number" class="promo">
                                 </div>
+                                
+                                <div class="data-in">
+                                    
+                                    <span class="next" type="button"></span>
+                                    <input type="number" id="number-diet" name = "day" class="data-dd" min="0" max="31" placeholder="День" >
+                                    <span class="prev" type="button"></span>
+
+                                </div>
+                                <div class="data-in">
+                                    <span class="next"></span>
+                                    <input type="number" id="data" id="data-ol" name = "month" class="data-dd" min="1" max="12" placeholder="Месяц">
+                                    <span class="prev"></span>
+                                </div>
+                                <div class="data-in">
+                                    <span class="next"></span>
+                                    <input type="number" id="data" name = "year" class="data-dd"  min="1998" max="2020" placeholder="Год">
+                                    <span class="prev"></span>
+                                </div>
+
+
+
+                                <div class="data-res">
+                                    
+                                    <span class="next"></span>
+                                    <input type="number" id="number-diet" name = "day" class="data-dd" min="0" max="31" placeholder="День" >
+                                    <span class="prev"></span>
+                                    
+                                </div>
+                                <div class="data-res">
+                                    <span class="next"></span>
+                                    <input type="number" id="data" id="data-ol" name = "month" class="data-dd" min="1" max="12" placeholder="Месяц">
+                                    <span class="prev"></span>
+                                </div>
+                                <div class="data-res">
+                                    <span class="next"></span>
+                                    <input type="number" id="data" name = "year" class="data-dd"  min="1998" max="2020" placeholder="Год">
+                                    <span class="prev"></span>
+                                </div>
                             </div>
                             <a href="#" class="message-arenda"><span>Отправить</span></a>
+                            <h1 class="arend-tex">Начальный день аренды:</h1>
+                            <h1 class="arenda-end">День окончания аренды:</h1>
+                            <div class="arrow-1">
+                                <div></div>
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -170,8 +214,8 @@
                             информация
                             дойдёт до слушателя без каких-либо помех и в полном объёме.</p>
                         </div>
-                    <img data-src="img/0711_1.jpg" src="#" alt="image" class="swiper-lazy">
-                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    <img src="img/0711_1.jpg"  alt="image"  class="swiper-lazy">
+                      <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                     
                 </div>
                 <div class="swiper-slide card">
@@ -185,7 +229,7 @@
                             информация
                             дойдёт до слушателя без каких-либо помех и в полном объёме.</p>
                         </div>
-                    <img data-src="img/silentsystem-brightfestival-sx610-1.jpg" src="#" alt="image" class="swiper-lazy">
+                    <img src="img/silentsystem-brightfestival-sx610-1.jpg"  alt="image" class="swiper-lazy" >
                     <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                    
                 </div>
@@ -200,7 +244,7 @@
                             информация
                             дойдёт до слушателя без каких-либо помех и в полном объёме.</p>
                         </div>
-                    <img data-src="img/0711_23.jpg" src="#" alt="image" class="swiper-lazy">
+                    <img src="img/0711_23.jpg"  alt="image" class="swiper-lazy">
                     <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                    
                 </div>
@@ -215,7 +259,7 @@
                             информация
                             дойдёт до слушателя без каких-либо помех и в полном объёме.</p>
                         </div>
-                    <img data-src="img/0711_1.jpg" src="#" alt="image" class="swiper-lazy">
+                    <img src="img/0711_1.jpg" alt="image" class="swiper-lazy" >
                     <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
                    
                 </div>
