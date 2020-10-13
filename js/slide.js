@@ -12,7 +12,8 @@ pagination: {
   loop:true,
   lazy:true,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-next',
+    prevEl: '.swiper-prev',
+    
   },
   })
